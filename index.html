@@ -12,7 +12,7 @@
     <h1 id="titulo">Cadastro de DEVs</h1>
     <p id="subtitulo">Complete suas informações</p>
   </div>
-  <form>
+  <form action="processa.php" method="POST">
     <fieldset class="grupo">
       <div class="campo">
         <label for="nome"><strong>Nome</strong></label>
@@ -44,7 +44,7 @@
     <br>
     <div class="campo">
       <label for="senioridade"><strong> Senioridade </strong></label>
-      <select id="senioridade">
+      <select id="senioridade" name="senioridade">
         <option selected disabled value="">Selecione</option>
         <option>Junior</option>
         <option>Pleno</option>
